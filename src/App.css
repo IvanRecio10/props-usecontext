@@ -25,3 +25,34 @@ button {
 .result {
   margin-top: 20px;
 }
+
+
+.calculator, .result {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.numbers-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 20px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
